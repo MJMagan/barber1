@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cut and Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Cut &<span>Connect</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#barbers">Our Barbers</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">☰</div>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn btn-outline" id="login-btn">Login</button>
+                <button class="btn btn-primary" id="register-btn">Register</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Premium Barber Experience</h2>
+                <p>Look sharp, feel confident. Our expert barbers provide top-notch haircuts and grooming services.</p>
+                <a href="#booking" class="btn btn-primary">Book Appointment</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="all_cuts/basic.jpg" alt="Haircut">
+                    </div>
+                    <div class="service-content">
+                        <h3>Classic Haircut</h3>
+                        <p class="price">₱250</p>
+                        <p>Our signature haircut includes consultation, shampoo, cut, and style.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="all_cuts/beard.jpg" alt="Beard Trim">
+                    </div>
+                    <div class="service-content">
+                        <h3>Beard Trim & Shaping</h3>
+                        <p class="price">₱150</p>
+                        <p>Expert beard trimming and shaping to enhance your facial features.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="all_cuts/hot_towel.jpg" alt="Hot Towel Shave">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hot Towel Shave</h3>
+                        <p class="price">₱200</p>
+                        <p>Traditional hot towel shave for the ultimate relaxation experience.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="all_cuts/haircolor.jpg" alt="Hair Coloring">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hair Coloring</h3>
+                        <p class="price">₱500</p>
+                        <p>Professional hair coloring services to refresh your look or try something new.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="all_cuts/kid.jpg" alt="Kids Haircut">
+                    </div>
+                    <div class="service-content">
+                        <h3>Kid's Haircut</h3>
+                        <p class="price">₱300</p>
+                        <p>Our kid's cut is a fun, quick, and gentle trim designed to keep your little one looking neat while ensuring a comfortable, tear-free experience.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="all_cuts/deluxe.jpg" alt="Deluxe Haircut">
+                    </div>
+                    <div class="service-content">
+                        <h3>Deluxe</h3>
+                        <p class="price">₱1000</p>
+                        <p>A premium experience with a precision haircut, hot towel treatment, straight-razor edge-up, revitalizing scalp massage, and expert styling—all tailored for refined grooming.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Barbers Section -->
+    <section class="section" id="barbers">
+        <div class="container">
+            <div class="section-title">
+                <h2>Meet Our Barbers</h2>
+            </div>
+            <div class="barbers-grid">
+                <div class="barber-card">
+                    <div class="barber-img">
+                        <img src="barbers/4.png" alt="Barber 1">
+                    </div>
+                    <div class="barber-info">
+                        <h3>Miguel Santos</h3>
+                        <p class="position">Senior Barber</p>
+                        <p>With over 10 years of experience, Miguel specializes in classic cuts and modern styles.</p>
+                        <div class="barber-status available">Available</div>
+                    </div>
+                </div>
+                <div class="barber-card">
+                    <div class="barber-img">
+                        <img src="barbers/5.png" alt="Barber 2">
+                    </div>
+                    <div class="barber-info">
+                        <h3>Carlo Reyes</h3>
+                        <p class="position">Master Barber</p>
+                        <p>Carlo is known for his precision fades and creative designs for the modern gentleman.</p>
+                        <div class="barber-status unavailable">Unavailable</div>
+                    </div>
+                </div>
+                <div class="barber-card">
+                    <div class="barber-img">
+                        <img src="barbers/6.png" alt="Barber 3">
+                    </div>
+                    <div class="barber-info">
+                        <h3>France Mendoza</h3>
+                        <p class="position">Style Specialist</p>
+                        <p>Paolo brings international experience and specializes in trendy hairstyles and beard grooming.</p>
+                        <div class="barber-status available">Available</div>
+                    </div>
+                </div>
+                <div class="barber-card">
+                    <div class="barber-img">
+                        <img src="barbers/3.png" alt="Barber 4">
+                    </div>
+                    <div class="barber-info">
+                        <h3>Anton Dela Cruz</h3>
+                        <p class="position">Junior Barber</p>
+                        <p>Anton is our newest team member with fresh ideas and specialized training in modern techniques.</p>
+                        <div class="barber-status available">Available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="section" id="booking">
+        <div class="container">
+            <div class="section-title">
+                <h2>Book an Appointment</h2>
+            </div>
+            <div class="booking-container">
+                <form class="booking-form" id="appointment-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="barber">Select Barber</label>
+                        <select id="barber" class="form-control" required>
+                            <option value="">Choose a barber</option>
+                            <option value="1">Miguel Santos</option>
+                            <option value="3">Paolo Mendoza</option>
+                            <option value="4">Anton Dela Cruz</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select id="service" class="form-control" required>
+                            <option value="">Choose a service</option>
+                            <option value="1">Classic Haircut - ₱250</option>
+                            <option value="2">Beard Trim & Shaping - ₱150</option>
+                            <option value="3">Hot Towel Shave - ₱200</option>
+                            <option value="4">Hair Coloring - ₱500</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Payment Method</label>
+                        <div class="payment-options">
+                            <div class="payment-option">
+                                <input type="radio" id="cash" name="payment" value="cash" checked>
+                                <label for="cash">Cash</label>
+                            </div>
+                            <div class="payment-option">
+                                <input type="radio" id="credit-card" name="payment" value="credit-card">
+                                <label for="credit-card">Credit Card</label>
+                            </div>
+                            <div class="payment-option">
+                                <input type="radio" id="gcash" name="payment" value="gcash">
+                                <label for="gcash">GCash</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Special Requests</label>
+                        <textarea id="notes" class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <p class="testimonial-text">"Elite Cuts provides the best haircut experience in the city. The barbers are skilled and the atmosphere is relaxing. I wouldn't go anywhere else!"</p>
+                    <p class="testimonial-author">- Juan Dela Cruz</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"I've been coming here for two years now. Miguel always knows exactly how I like my hair and beard. The online booking system makes it so convenient!"</p>
+                    <p class="testimonial-author">- Mark Reyes</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"The hot towel shave is a must-try experience. Paolo's attention to detail and skill is unmatched. Highly recommended!"</p>
+                    <p class="testimonial-author">- Ryan Santos</p>
+                </div>
+                <div class="slider-controls">
+                    <div class="slider-dot active" data-index="0"></div>
+                    <div class="slider-dot" data-index="1"></div>
+                    <div class="slider-dot" data-index="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-detail">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <p>Poblacion, Corella, Bohol</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <p>(555) 123-45679</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <p>bookings@cutandconnect.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <p>Monday - Saturday: 9AM - 8PM</p>
+                            <p>Sunday: 10AM - 6PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.123456789012!2d123.9192443!3d9.6897222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aa492f6a14768b%3A0xd7f242e4e47752dd!2sMunicipality%20of%20Corella%20Public%20Market!5e0!3m2!1sen!2sph!4v1234567890123!5m2!1sen!2sph" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                  ></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Cut & Connect</h3>
+                    <p>Premium barber services for the modern gentleman. Book your appointment today and experience the difference.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">t</a>
+                        <a href="#" class="social-icon">in</a>
+                        <a href="#" class="social-icon">ig</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#barbers">Our Barbers</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Classic Haircut</a></li>
+                        <li><a href="#services">Beard Trim & Shaping</a></li>
+                        <li><a href="#services">Hot Towel Shave</a></li>
+                        <li><a href="#services">Hair Coloring</a></li>
+                        <li><a href="#services">Deluxe</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates and special offers.</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email Address" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Login</h2>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="login-email">Email Address</label>
+                    <input type="email" id="login-email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <a href="#" id="forgot-password">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+                <div class="form-footer">
+                    <p>Don't have an account? <a id="switch-to-register">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal" id="register-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Register</h2>
+            <form class="register-form">
+                <div class="form-group">
+                    <label for="register-name">Full Name</label>
+                    <input type="text" id="register-name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-email">Email Address</label>
+                    <input type="email" id="register-email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-phone">Phone Number</label>
+                    <input type="tel" id="register-phone" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Password</label>
+                    <input type="password" id="register-password" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-confirm-password">Confirm Password</label>
+                    <input type="password" id="register-confirm-password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+                <div class="form-footer">
+                    <p>Already have an account? <a id="switch-to-login">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Forgot Password Modal -->
+    <div class="modal" id="forgot-password-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Reset Password</h2>
+            <form class="forgot-password-form">
+                <div class="form-group">
+                    <label for="reset-email">Email Address</label>
+                    <input type="email" id="reset-email" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Reset Link</button>
+                <div class="form-footer">
+                    <p>Remember your password? <a id="back-to-login">Back to Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="firebase-config.js"></script>
+    <script type="module" src="main.js"></script>
+    
+  
+</body>
+</html>
